@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Circle from "./components/Circle";
+import Form from "./components/Form";
 import GlobalStyle from "./styles/Global";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <Circle bgColor="black" />
+      <Form />
       <Container>11</Container>;
     </>
   );
